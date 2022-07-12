@@ -24,7 +24,7 @@ The main purpose of this network is to expose a load-balanced and monitored inst
 Load balancing ensures that the application will be highly accessible, in addition to denying unrestricted access to the network.
 
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log data and system metrics. Filebeat is responsible for the log data, while Metricbeat will be collecting system statistics, and mertrics.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log data and system metrics. Filebeat is responsible for the log data, while Metricbeat will be collecting system statistics, and metrics.
 
 The configuration details of each machine may be found below.
 
@@ -83,7 +83,7 @@ We have installed the following Beats on these machines:
 
 - SSH into the control node and follow the steps below:
 - Copy the filebeat-playbook.yml as well as metricbeat-playbook.yml file to the /etc/ansible directory
-- Update the hosts file to include your machines IP address. Set the IP addresses of the machines you are trying to configure.
+- Update the hosts file to include your machine's IP address. Set the IP addresses of the machines you are trying to configure.
 - Run the ansible playbook. Check your ELK VM for installation validation.
 
 In Depth Configuration:
@@ -100,4 +100,4 @@ In Depth Configuration:
 - Run pentest playbook to deploy dockers to webservers
 - Run filebeat and metricbeat playbooks to deploy services to ELK VM
 - ssh into ELK vm and "sudo docker ps" to confirm docker is running
-- Another way to confirm the deployment was succesful is to navigate to your Kibana dashboard. (http://[elk.external.ip]:5601/app/kibana)
+- Another way to confirm the deployment was successful is to navigate to your Kibana dashboard. (http://[elk.external.ip]:5601/app/kibana)
