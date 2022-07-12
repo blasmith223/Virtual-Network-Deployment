@@ -58,11 +58,11 @@ A summary of the access policies in place can be found in the table below.
 Ansible was used to automate configuration of the ELK machine. No configuration was performed manually, which is advantageous because it allows us to deploy multiple at the same time. It is also easier, and prevents human error.
 
 The playbook implements the following tasks:
-Installing Docker and Python3-pip and sets them as the default docker modules
-Increase allocated memory
-Downloads and launches the elk image to the specified container
-Confirms ELK ports
-Enables Docker service to enable upon booting
+- Installing Docker and Python3-pip and sets them as the default docker modules
+- Increase allocated memory
+- Downloads and launches the elk image to the specified container
+- Confirms ELK ports
+- Enables Docker service to enable upon booting
 
 
 ### Target Machines & Beats
