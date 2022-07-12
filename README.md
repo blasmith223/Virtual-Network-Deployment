@@ -95,8 +95,8 @@ In Depth Configuration:
   - filebeat-config.yml
     - set hosts
 - Modify the hosts file 
-	-update the IP address of the servers you want to monitor [webservers] 
-	-update IP address of the ELK stack [elk]
+ - update the IP address of the servers you want to monitor [webservers] 
+ - update IP address of the ELK stack [elk]
 - Run pentest playbook to deploy dockers to webservers
 - Run filebeat and metricbeat playbooks to deploy services to ELK VM
 - ssh into ELK vm and "sudo docker ps" to confirm docker is running
