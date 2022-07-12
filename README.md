@@ -67,21 +67,21 @@ Enables Docker service to enable upon booting
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
--10.0.0.5
--10.0.0.6
+- 10.0.0.5
+- 10.0.0.6
 
 We have installed the following Beats on these machines:
--Filebeat
--Metricbeat
-These Beats allow us to collect the following information from each machine:
-Filebeat generates log files on the machine it is installed on. Filebeat also has the capability to forward data to Logstash or Elasticsearch.
-Metricbeat is responsible for the collection of metrics, and statistics of a system. Metricbeat takes the information it collects and ships it to a specified output, in this case, Logstash and Elasticsearch.
+- Filebeat
+- Metricbeat
+- These Beats allow us to collect the following information from each machine:
+- Filebeat generates log files on the machine it is installed on. Filebeat also has the capability to forward data to Logstash or Elasticsearch.
+- Metricbeat is responsible for the collection of metrics, and statistics of a system. Metricbeat takes the information it collects and ships it to a specified output, in this case, Logstash and Elasticsearch.
 
 
 ### Using the Playbook
-In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
+- In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
-SSH into the control node and follow the steps below:
+- SSH into the control node and follow the steps below:
 - Copy the filebeat-playbook.yml as well as metricbeat-playbook.yml file to the /etc/ansible directory
 - Update the hosts file to include your machines IP address. Set the IP addresses of the machines you are trying to configure.
 - Run the ansible playbook. Check your ELK VM for installation validation.
