@@ -21,7 +21,7 @@ This document contains the following details:
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly accessible, in addition to restricting unrestricted access to the network.
+Load balancing ensures that the application will be highly accessible, in addition to denying unrestricted access to the network.
 
 
 Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the log data and system metrics. Filebeat is responsible for the log data, while Metricbeat will be collecting system statistics, and mertrics.
