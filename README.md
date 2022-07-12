@@ -89,11 +89,11 @@ We have installed the following Beats on these machines:
 In Depth Configuration:
 - Modify the following files
   - ansible.cfg
-   - set user
+    - set user
   - metricbeat-config.yml
-   - set hosts 
- - filebeat-config.yml
-   - set hosts
+    - set hosts 
+  - filebeat-config.yml
+    - set hosts
 - Modify the hosts file 
 	-update the IP address of the servers you want to monitor [webservers] 
 	-update IP address of the ELK stack [elk]
