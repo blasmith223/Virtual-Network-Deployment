@@ -4,7 +4,7 @@ Deployment of a jump box, webservers, and ELK stack in Azure. This involved clou
 
 The files in this repository were used to configure the network depicted below.
 
-![image](https://user-images.githubusercontent.com/107807748/178535569-4dcdf209-ee41-462e-b2e8-48ff81903849.png)
+![image](https://imgur.com/a/6ZRXzQM)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the pentest.yml file may be used to install only certain pieces of it, such as Filebeat.
 
